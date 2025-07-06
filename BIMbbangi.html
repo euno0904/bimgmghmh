@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>BIM(Building Information Modeling) 소개</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: white;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      color: #0055a5;
+      margin-top: 0;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    /* ✅ 이미지 가로 정렬 + 캡션 */
+    .image-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .image-row figure {
+      width: 32%;
+      margin: 0;
+      text-align: center;
+    }
+    .image-row img {
+      width: 100%;
+      height: auto;
+    }
+    .image-row figcaption {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BIM(Building Information Modeling)</h1>
+    <p>건축과 기술의 융합, 미래를 설계하다</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>BIM이란?</h2>
+      <p>
+        BIM은 건축물의 물리적·기능적 특성을 디지털 3D 모델로 구현하여 설계, 시공, 유지보수까지 
+        전 과정에 걸쳐 정보를 통합 관리할 수 있게 해주는 혁신적인 기술입니다. 기존 2D 도면에 비해 
+        훨씬 직관적이며, 다양한 이해관계자 간의 협업을 촉진합니다.
+      </p>
+      <img src="BIMfile.webp" alt="BIM 예시 이미지">
+    </section>
+
+    <section>
+      <h2>BIM의 주요 장점</h2>
+      <ul>
+        <li><strong>정확한 3D 설계</strong> – 시각화로 오류를 줄이고 설계의 품질을 향상</li>
+        <li><strong>효율적인 협업</strong> – 구조, 전기, 설비 등 다양한 분야가 동일한 모델을 공유</li>
+        <li><strong>비용 절감</strong> – 자재 산출 자동화, 공정 최적화, 충돌 사전 검토로 비용 감소</li>
+        <li><strong>시공 시뮬레이션</strong> – 공정(4D), 비용(5D), 에너지(6D)까지 분석 가능</li>
+        <li><strong>유지보수 정보 제공</strong> – 시설물의 수명 주기 전반에 걸쳐 정보 관리 가능</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>BIM 활용 분야</h2>
+      <p>
+        BIM은 단순 건축 설계뿐 아니라 토목, 인프라, 기계·전기·설비(MEP), 스마트 시티 구축, 공공 시설 관리 등 다양한 분야에서 활용됩니다. 최근에는 AI와 결합해 더욱 자동화된 설계와 시공 관리가 가능해지고 있습니다.
+      </p>
+
+      <div class="image-row">
+        <figure>
+          <img src="banner-data-harmonization.webp" alt="건축 설계">
+          <figcaption>스마트 시티 구축에서의 BIM</figcaption>
+        </figure>
+        <figure>
+          <img src="AI결합BIM.png" alt="스마트 시티">
+          <figcaption>AI와 결합한 BIM</figcaption>
+        </figure>
+        <figure>
+          <img src="이건뭐야.png" alt="공공 인프라">
+          <figcaption>자동화 설계 적용 사례</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>BIM 활용 사례</h2>
+      <p>
+        국내외 다양한 프로젝트에서 BIM은 실질적인 효과를 보이며 활용되고 있습니다.
+      </p>
+      <ul>
+        <li><strong>설계-시공 통합 협업</strong> – BIM을 통해 건축 설계자와 시공자가 동일한 3D 모델을 기반으로 협업하여, 설계 오류를 줄이고 시공 품질을 향상시킴.</li>
+        <li><strong>공공 인프라 구축</strong> – 고속철도, 고속도로, 항만 등 교통 및 SOC 인프라 설계 시, 구조적 안정성과 시공 편의성을 사전에 검토하여 공정 지연과 비용 초과를 방지함.</li>
+        <li><strong>시설물 유지관리</strong> – 준공 후 BIM 데이터를 활용해 건축물의 수리, 교체, 검사 등 유지보수를 체계적으로 진행 가능.</li>
+        <li><strong>리모델링 및 리뉴얼</strong> – 기존 건물의 정보를 3D로 스캔해 BIM 모델로 구현하면, 구조 변경이나 개조 작업이 훨씬 정밀하고 안전하게 수행 가능.</li>
+        <li><strong>스마트 시티 구현</strong> – BIM을 기반으로 도시 전체를 디지털 트윈으로 구현해, 도시 계획, 환경 분석, 에너지 최적화 등에 활용됨.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>미래 전망</h2>
+      <p>
+        BIM은 단순한 설계 도구를 넘어서 디지털 트윈(Digital Twin) 기술, 클라우드 협업, 사물인터넷(IoT) 등과 융합되며 미래 스마트 건설의 핵심 기술로 자리잡고 있습니다.
+      </p>
+    </section>
+  </main>
+
+</body>
+</html>
